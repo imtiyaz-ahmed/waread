@@ -1,0 +1,52 @@
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+.container-new {
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    padding: 2px;
+    margin: 5px 5px;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    text-align: right;
+}
+
+.chat-icon {
+	border-radius: 50%;
+	padding: 0px;
+}
+
+.container-new::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-new img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container-new img .right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    /* float: right; */
+    color: #aaa;
+    text-indent: 5px
+}
+
+.time-left {
+    /* float: left; */
+    color: #999;
+}

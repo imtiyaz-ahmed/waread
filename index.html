@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 shrink-to-fit=no">
+	<title>WhatsApp Web Application</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<div class="row"> <!-- open class 'row' -->
+
+		<div class="col-sm-3"> <!-- open class 'col-sm-3' -->
+			
+			<!-- coding for navigation bar -->
+			<nav class="navbar sticky-top navbar-light" style="background-color: #b8ffc3;">
+				<a class="navbar-brand" href="file:///C:/Users/colou/Desktop/Mean%20Stack%20Developer_Edwisor/Assignments/2.2%20Advance%20Responsive%20design-Bootstrap/2.2%20Assignment%20submission_Responsive%20WhatsApp/WhatsApp%20with%20read%20messages/profile-pic.html">
+					<img src="pro-imtiyaz.jpg" width="40" height="40" alt="My profile picture" style="border-radius: 50%;"> WhatsApp
+				</a>
+				<ul class="navbar" style="list-style-type: none;">
+					<li class="nav-item dropleft">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="file:///C:/Users/colou/Desktop/Mean%20Stack%20Developer_Edwisor/Assignments/2.2%20Advance%20Responsive%20design-Bootstrap/2.2%20Assignment%20submission_Responsive%20WhatsApp/WhatsApp%20with%20read%20messages/profile-pic.html">Profile</a>
+							<a class="dropdown-item" href="#">Archive</a>
+							<a class="dropdown-item" href="#">Settings</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Log out</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+			<ul class="nav nav-tabs justify-content-center"> <!-- coding for different tabs -->
+				<li class="nav-item">
+					<a class="nav-link active" id="chats-tab" data-toggle="tab" href="#chats" role="tab" aria-controls="chats" aria-selected="true">Chats</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Status</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Calls</a>
+				</li>
+			</ul>
+			
+			<div class="tab-content" id="myTabContent"> <!-- coding for tab-content -->
+				<div class="tab-pane fade show active" id="chats" role="tabpanel" aria-labelledby="chats-tab">
+
+					<div class="list-group list-group-flush"> <!-- coding for list of messages -->
+						
+						<a href="file:///C:/Users/colou/Desktop/Mean%20Stack%20Developer_Edwisor/Assignments/2.2%20Advance%20Responsive%20design-Bootstrap/2.2%20Assignment%20submission_Responsive%20WhatsApp/WhatsApp%20with%20read%20messages/chat-samir.html" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-samir.jpg" width="50" height="50" alt="Samir profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> Samir</h6>
+										<small> 3:26 PM</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">Ok fine</p>					
+									</div>
+								</div>     
+							</div>
+						</a>
+
+						<a href="#" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-aadil.jpg" width="50" height="50" alt="Aadil profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> Aadil Ahmed</h6>
+										<small> 2:20 PM</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">Seminar started</p>
+									</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-family.jpg" width="50" height="50" alt="Family profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> Family folks</h6>
+										<small> 10:06 AM</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">Aysha: Okay</p>
+									</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-david.jpg" width="50" height="50" alt="David profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> David John</h6>
+										<small> Yesterday</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">I'm doing good here</p>
+									</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-aysha.jpg" width="50" height="50" alt="Aysha profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> Aysha</h6>
+										<small> Yesterday</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">Yes I've attended the class</p>
+									</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="list-group-item list-group-item-action">
+							<div class="media">
+								<img src="pro-suresh.jpg" width="50" height="50" alt="Suresh profile picture" style="border-radius: 50%;">
+								<div class="media-body">
+									<div class="d-flex w-100 justify-content-between">
+										<h6 class="ml-2"> Suresh</h6>
+										<small> Tuesday</small>
+									</div>
+									<div class="d-flex w-100 justify-content-between">
+										<p class="ml-2 mb-0">I'm doing good here</p>
+									</div>
+								</div>
+							</div>
+						</a>
+
+					</div> <!-- end of list of messages -->
+				</div>
+			</div> <!-- end of tab-content class -->
+
+		</div> <!-- close class 'col-sm-3' -->
+
+	</div> <!-- close class 'row' -->
+</div> <!-- close class 'container-fluid' -->
+
+
+<!-- script files from Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
